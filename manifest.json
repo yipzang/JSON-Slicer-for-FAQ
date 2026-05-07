@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "JSON Slicer for FAQ",
+  "version": "1.0",
+ "description": "一键将选中的常见问题文本转换为标准的 FAQ JSON 格式。",
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon32.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon32.png"
+  },
+  "permissions": ["storage"]
+}
